@@ -15,7 +15,7 @@ int main()
 	for(a=1 ; a < (sum-3)/3 ; a++)
 	{
 		for(b=a+1 ; b<(sum-a)/2 ; b++)
-		//Used b = a+1 for preventing repetitions
+		//Used b = a+1 for preventing errors
 		{
 			c = sum - (a+b) ;
 			if(pow(a,2)+pow(b,2) == pow(c,2))
